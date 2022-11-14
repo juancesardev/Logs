@@ -1,0 +1,35 @@
+[2022-11-14 18:25:58.424 -04:00  INF]  Now listening on: https://localhost:7090
+[2022-11-14 18:25:58.523 -04:00  INF]  Now listening on: http://localhost:5090
+[2022-11-14 18:25:58.530 -04:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-14 18:25:58.536 -04:00  INF]  Hosting environment: Development
+[2022-11-14 18:25:58.539 -04:00  INF]  Content root path: W:\Anonymous\Documents\GitHub Files\Test\OB\API\Logs\
+[2022-11-14 18:26:00.240 -04:00  INF]  Request starting HTTP/2 GET https://localhost:7090/swagger/index.html - -
+[2022-11-14 18:26:01.098 -04:00  INF]  Request finished HTTP/2 GET https://localhost:7090/swagger/index.html - - - 200 - text/html;charset=utf-8 861.5260ms
+[2022-11-14 18:26:01.469 -04:00  INF]  Request starting HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-14 18:26:02.202 -04:00  INF]  Request finished HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 733.5361ms
+[2022-11-14 18:26:02.402 -04:00  INF]  Request starting HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - -
+[2022-11-14 18:26:02.745 -04:00  INF]  Request finished HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 342.9506ms
+[2022-11-14 18:26:17.907 -04:00  INF]  Request starting HTTP/2 GET https://localhost:7090/WeatherForecast - -
+[2022-11-14 18:26:17.934 -04:00  INF]  Executing endpoint 'Logs.Controllers.WeatherForecastController.Get (Logs)'
+[2022-11-14 18:26:17.960 -04:00  INF]  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logs.WeatherForecast] Get() on controller Logs.Controllers.WeatherForecastController (Logs).
+[2022-11-14 18:26:17.970 -04:00  INF]  WeatherForecastController - Get - Information Level Log
+[2022-11-14 18:26:17.973 -04:00  WRN]  WeatherForecastController - Get - Warning Level Log
+[2022-11-14 18:26:17.977 -04:00  ERR]  WeatherForecastController - Get - Error Level Log
+[2022-11-14 18:26:17.985 -04:00  FTL]  WeatherForecastController - Get - Critical Level Log
+[2022-11-14 18:26:18.012 -04:00  INF]  Executing ObjectResult, writing value of type 'Logs.WeatherForecast[]'.
+[2022-11-14 18:26:18.053 -04:00  INF]  Executed action Logs.Controllers.WeatherForecastController.Get (Logs) in 71.0398ms
+[2022-11-14 18:26:18.062 -04:00  INF]  Executed endpoint 'Logs.Controllers.WeatherForecastController.Get (Logs)'
+[2022-11-14 18:26:18.074 -04:00  INF]  HTTP GET /WeatherForecast responded 200 in 147.4931 ms
+[2022-11-14 18:26:18.077 -04:00  INF]  Request finished HTTP/2 GET https://localhost:7090/WeatherForecast - - - 200 - application/json;+charset=utf-8 170.4874ms
+[2022-11-14 18:26:28.931 -04:00  INF]  Request starting HTTP/2 GET https://localhost:7090/WeatherForecast - -
+[2022-11-14 18:26:28.939 -04:00  INF]  Executing endpoint 'Logs.Controllers.WeatherForecastController.Get (Logs)'
+[2022-11-14 18:26:28.943 -04:00  INF]  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logs.WeatherForecast] Get() on controller Logs.Controllers.WeatherForecastController (Logs).
+[2022-11-14 18:26:28.951 -04:00  INF]  WeatherForecastController - Get - Information Level Log
+[2022-11-14 18:26:28.956 -04:00  WRN]  WeatherForecastController - Get - Warning Level Log
+[2022-11-14 18:26:28.959 -04:00  ERR]  WeatherForecastController - Get - Error Level Log
+[2022-11-14 18:26:28.962 -04:00  FTL]  WeatherForecastController - Get - Critical Level Log
+[2022-11-14 18:26:28.968 -04:00  INF]  Executing ObjectResult, writing value of type 'Logs.WeatherForecast[]'.
+[2022-11-14 18:26:28.973 -04:00  INF]  Executed action Logs.Controllers.WeatherForecastController.Get (Logs) in 22.5928ms
+[2022-11-14 18:26:28.977 -04:00  INF]  Executed endpoint 'Logs.Controllers.WeatherForecastController.Get (Logs)'
+[2022-11-14 18:26:28.982 -04:00  INF]  HTTP GET /WeatherForecast responded 200 in 44.3161 ms
+[2022-11-14 18:26:28.990 -04:00  INF]  Request finished HTTP/2 GET https://localhost:7090/WeatherForecast - - - 200 - application/json;+charset=utf-8 59.1853ms
